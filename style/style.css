@@ -324,7 +324,7 @@ line-height: 45px;
 }
 
 .games-container {
-  margin-top: 100px;
+  margin-top: 150px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -385,10 +385,12 @@ font-weight: 600;
 
 .footer-feature p {
   margin: 0 30px;
+  cursor: pointer;
 }
 
 .footer-icon i {
   margin: 0 20px;
+  cursor: pointer;
 }
 
 .footer-condition {
@@ -497,5 +499,9 @@ margin-top: 28px;
   .footer-icon i,
   .footer-condition p {
     margin: 15px 10px ;
+  }
+
+  .games-container {
+    margin-top: 200px;
   }
 }
